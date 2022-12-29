@@ -128,7 +128,7 @@ C/S:客户端和服务器
 
 测试访问：127.0.0.1:8080
 
-![image-20221228205808865](D:\Code\idea\java-study\study-notes-imgs\image-20221228205808865.png)
+![image-20221228205808865](../study-notes-imgs/image-20221228205808865.png)
 
 ### 3.3配置
 
@@ -148,7 +148,7 @@ C/S:客户端和服务器
 
 - https : 443
 
-- ![image-20221228203234019](D:\Code\idea\java-study\study-notes-imgs\image-20221228203234019.png)
+- ![image-20221228203234019](../study-notes-imgs/image-20221228203234019.png)
 
 - 可以配置主机名称
 
