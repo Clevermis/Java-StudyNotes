@@ -1,8 +1,8 @@
 
 
-# java-study
+# Java-StudyNotes
 
-这是一个java学习记录的文档，里面包括java一系列的学习笔记以及常见问题解决的总结
+这是一份java学习记录的文档，里面包括java一系列的学习笔记、源码和常见问题解决的总结
 
 <!-- PROJECT SHIELDS -->
 
