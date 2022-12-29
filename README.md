@@ -78,11 +78,12 @@ git clone https://github.com/Clevermis/java-study.git
 ```
 
 ### 文件目录说明
-eg:
+
 
 ```
 filetree 
 ├── .idea               idea建立目录自动生成的文件夹
+├── question总结         记录每天遇到的问题
 ├── readme-img          README存放图片目录
 ├── /study-notes/       java学习笔记
 │     ├── javaweb.md      
