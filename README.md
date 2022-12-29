@@ -88,6 +88,7 @@ filetree
 │     ├── javaweb.md      
 │     └── Markdown.md
 ├── study-notes-imgs    java学习笔记中存放的图片
+├── LICENSE.MD
 └── README.md
 
 ```
@@ -104,11 +105,83 @@ filetree
 
 暂无
 
-### 使用到的框架
+### 涉及到的技术
+<details>
+<summary>java基础</summary>
 
-- [spring](https://spring.io/)
-- [springmvc](https://spring.io/guides/gs/serving-web-content/)
-- [springboot](https://spring.io/projects/spring-boot)
+- [ ] java基础
+- [ ] Html、css、js
+- [ ] Mysql
+- [ ] JDBC 、数据库连接池
+- [ ] XML、XML解析、JSON、JSON解析、Ajax请求
+- [ ] Tomcat 、 Maven
+- [ ]  Servlet
+- [ ]  Filter与Listener
+- [ ]  java反射机制
+- [ ]  JSP
+- [ ]  EL表达式与JSTL
+- [ ]  会话控制Cookie和Session
+</details>
+
+<details>
+<summary>java中级</summary>
+
+- [ ] Spring
+- [ ] Springmvc
+- [ ] Mybatis
+- [ ] MybatisPlus
+- [ ] Vue
+- [ ] Springboot
+- [ ] Spring Security或Shiro
+- [ ] Log与Git
+</details>
+
+<details>
+<summary>java高级</summary>
+
+- [ ] 设计模式
+- [ ] Redis
+- [ ] Mysql进阶
+- [ ] JUC并发编程
+- [ ] JVM虚拟机
+- [ ] Mongodb
+- [ ] PostgreSQL
+- [ ] 消息队列RabbitMQ
+- [ ] 远程调用技术WebService
+- [ ] Nginx
+</details>
+
+<details>
+<summary>java进阶</summary>
+
+- [ ] Spring Cloud
+- [ ] 接口管理
+- [ ] Dubbo
+- [ ] 分布式注册中心Zookeeper
+- [ ] 全文检索引擎Elasticsearch
+- [ ] 分布式订阅消息Kafka
+- [ ] Docker（应用容器）
+- [ ] CI/CD
+- [ ] 大数据存储Hadoop
+- [ ] Netty（网络编程框架）
+</details>
+
+
+<details>
+<summary>其余的技术栈</summary>
+
+- [ ] 数据结构
+- [ ] 计算机网络
+- [ ] 操作系统
+- [ ] 计算机组成原理
+- [ ] 支付宝与微信支付对接（在线支付开发）
+- [ ] Sharding-JDBC
+- [ ] POI读取excel
+- [ ] Mycat(数据库中间件)
+- [ ] springData
+- [ ] Maven进阶
+</details>
+
 - 持续更新中......
 ### 贡献者
 
@@ -141,23 +214,23 @@ Clevermis
 
 ### 版权说明
 
-该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt)
+该项目签署了MIT 授权许可，详情请参阅 [LICENSE.MD](https://github.com/Clevermis/java-study/blob/main/LICENSE.MD)
 
 
 <!-- links -->
-[your-project-path]:shaojintian/Best_README_template
+[your-project-path]:Clevermis/java-study
 [contributors-shield]: https://img.shields.io/github/contributors/shaojintian/Best_README_template.svg?style=flat-square
-[contributors-url]: https://github.com/shaojintian/Best_README_template/graphs/contributors
+[contributors-url]:https://github.com/Clevermis/java-study/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/shaojintian/Best_README_template.svg?style=flat-square
-[forks-url]: https://github.com/shaojintian/Best_README_template/network/members
+[forks-url]: https://github.com/Clevermis/java-study/network/members
 [stars-shield]: https://img.shields.io/github/stars/shaojintian/Best_README_template.svg?style=flat-square
-[stars-url]: https://github.com/shaojintian/Best_README_template/stargazers
+[stars-url]: https://github.com/Clevermis/java-study/stargazers
 [issues-shield]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg?style=flat-square
-[issues-url]: https://img.shields.io/github/issues/shaojintian/Best_README_template.svg
+[issues-url]: https://github.com/Clevermis/java-study/Best_README_template.svg
 [license-shield]: https://img.shields.io/github/license/shaojintian/Best_README_template.svg?style=flat-square
-[license-url]: https://github.com/shaojintian/Best_README_template/blob/master/LICENSE.txt
+[license-url]: https://github.com/Clevermis/java-study/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/shaojintian
+[linkedin-url]: https://github.com/Clevermis/java-study
 
 
 
