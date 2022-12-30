@@ -25,4 +25,29 @@
 [Java基础之类型转换总结篇](https://www.cnblogs.com/cy0628/p/13831406.html)
 <br />
 [Java 文档注释](https://www.runoob.com/java/java-documentation.html)
-
+<br />
+[JAVA--变量、常量、作用域](https://blog.csdn.net/liangh3eng/article/details/106263908)
+<br />
+[Java基本运算符](https://www.yiibai.com/java/java_basic_operators.html)
+<br />
+[Java的算数运算符、关系运算符、逻辑运算符、位运算符](https://blog.csdn.net/typa01_kk/article/details/45000535)
+<br />
+[Java中的包机制和import机制 ](https://www.cnblogs.com/yu011/p/12632649.html)
+<br />
+[用户交互Scanner ](https://www.cnblogs.com/ben10044/p/16060219.html)
+<br />
+[方法的定义和调用 ](https://www.cnblogs.com/function123/p/13380611.html)
+<br />
+[完整的java数组操作应用知识汇总](https://www.w3cschool.cn/java/java-array2.html)
+<br />
+[Java面向对象详解](https://www.cnblogs.com/hellojava/archive/2013/02/27/2935450.html)
+<br />
+[Java构造器（构造方法）](https://www.yiibai.com/java/constructor.html)
+<br />
+[Java抽象类](https://tobebetterjavaer.com/oo/abstract.html)
+<br />
+[Java接口](https://tobebetterjavaer.com/oo/interface.html)
+<br />
+[Java内部类详解 ](https://www.cnblogs.com/dolphin0520/p/3811445.html)
+<br />
+[Java异常处理](https://tobebetterjavaer.com/exception/gailan.html#%E4%BA%94%E3%80%81%E5%85%B3%E4%BA%8E-try-catch-finally)
