@@ -298,3 +298,76 @@ public String substring(int begin, int end)：截取从begin开始，一直到en
 备注：[begin,end)，包含左边，不包含右边。
 
 ```
+
+
+
+# 2.Java 集合
+
+https://www.pdai.tech/md/java/collection/java-collection-all.html
+
+![image-20221231172421455](../study-notes-imgs/image-20221231172421455.png)
+
+![image-20221231172748017](../study-notes-imgs/image-20221231172748017.png)
+
+## 2.1 Collection
+
+### 2.1.1 ArrayList
+
+- add：添加单个元素
+- remove：删除指定元素
+- contains：查找元素是否存在
+- size：获取元素个数
+- isEmpty：判断是否为空
+- clear：清空
+- addAll：添加多个元素
+- containsAll：查找多个元素是否都存在
+- removeAll：删除多个元素
+- ![image-20221231220214075](../study-notes-imgs/image-20221231220214075.png)
+- ![image-20221231220335269](../study-notes-imgs/image-20221231220335269.png)
+- ![image-20221231220418560](../study-notes-imgs/image-20221231220418560.png)
+- 
+
+### 2.1.2 LinkedList
+
+![image-20221231221221466](../study-notes-imgs/image-20221231221221466.png)
+
+### 2.1.3 Vector
+
+![image-20221231220902830](../study-notes-imgs/image-20221231220902830.png)
+
+![image-20221231221044327](../study-notes-imgs/image-20221231221044327.png)
+
+### 2.1.4 HashSet
+
+![image-20221231221406171](../study-notes-imgs/image-20221231221406171.png)
+
+### 2.1.5 LinkedHashSet
+
+![image-20221231221506546](../study-notes-imgs/image-20221231221506546.png)
+
+### 2.1.6 TreeSet
+
+![image-20221231221626030](../study-notes-imgs/image-20221231221626030.png)
+
+## 2.2 Map
+
+### 2.2.1 HashMap
+
+![image-20221231221656135](../study-notes-imgs/image-20221231221656135.png)
+
+### 2.2.2 Hashtable
+
+![image-20221231221729888](../study-notes-imgs/image-20221231221729888.png)
+
+### 2.2.3 LinkedHashMap
+
+### 2.2.4 TreeMap
+
+![image-20221231221926163](../study-notes-imgs/image-20221231221926163.png)
+
+### 2.2.5 Properties
+
+![image-20221231221843162](../study-notes-imgs/image-20221231221843162.png)
+
+## 2.3 Collections
+
