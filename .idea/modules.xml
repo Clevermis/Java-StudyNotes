@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/studyJavaseCode/Anonymous/Anonymous.iml" filepath="$PROJECT_DIR$/studyJavaseCode/Anonymous/Anonymous.iml" />
       <module fileurl="file://$PROJECT_DIR$/studyJavaseCode/Array/Array.iml" filepath="$PROJECT_DIR$/studyJavaseCode/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyJavaseCode/Collection/Collection.iml" filepath="$PROJECT_DIR$/studyJavaseCode/Collection/Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/studyJavaseCode/List_/List_.iml" filepath="$PROJECT_DIR$/studyJavaseCode/List_/List_.iml" />
       <module fileurl="file://$PROJECT_DIR$/studyJavaseCode/Math/Math.iml" filepath="$PROJECT_DIR$/studyJavaseCode/Math/Math.iml" />
       <module fileurl="file://$PROJECT_DIR$/studyJavaseCode/Random/Random.iml" filepath="$PROJECT_DIR$/studyJavaseCode/Random/Random.iml" />
       <module fileurl="file://$PROJECT_DIR$/studyJavaseCode/Scanner/Scanner.iml" filepath="$PROJECT_DIR$/studyJavaseCode/Scanner/Scanner.iml" />
