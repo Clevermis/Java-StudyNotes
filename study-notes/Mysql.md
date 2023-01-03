@@ -1566,10 +1566,6 @@ order(订单编号，房间号，联系人编号)   lianxiren(联系人编号，
 
 ### 11.1 数据库驱动
 
-
-
-![image-20201120101727886](F:\MD格式学习笔记库\狂神JAVA-11-MySql数据库.assets\image-20201120101727886.png)
-
 我们的程序会通过数据库驱动，和数据库打交道
 
 
@@ -1616,15 +1612,9 @@ VALUE(1,'zhangsan','123456','zs@sina.com','1980-12-04'),
 
 	- 首先在项目根目录，点击右键，新建一个lib目录，如下图
 
-![image-20201120111112439](F:\MD格式学习笔记库\狂神JAVA-11-MySql数据库.assets\image-20201120111112439.png)
-
 	- 然后将我们的JAR包拷贝到lib目录中
 
-![image-20201120111206144](F:\MD格式学习笔记库\狂神JAVA-11-MySql数据库.assets\image-20201120111206144.png)
-
 - 选择目录，点击右键，选择 [add as libray] 这个时候就导入包成功了
-
-![image-20201120111314325](F:\MD格式学习笔记库\狂神JAVA-11-MySql数据库.assets\image-20201120111314325.png)
 
 
 
@@ -1714,9 +1704,9 @@ Class.forName("com.mysql.jdbc.Driver"); //固定写法，加载驱动
 > //事务回滚
 >
 > 	connection.rollback();
-> 	
+> 		
 > 	connection.commit();
-> 	
+> 		
 > 	connection.setAutoCommit();
 >
 > 
@@ -1778,8 +1768,6 @@ Class.forName("com.mysql.jdbc.Driver"); //固定写法，加载驱动
 1.编写提取工具类
 
  - step1. 首先，我们在项目的目录里面，添加我们的mysql配置文件 db.properties,记住这个目录一定要放到项目根目录src下，不然接下来的ClassLoader().getResourceAsStream()可能无法获取到，
-
-![image-20201120192601302](F:\MD格式学习笔记库\狂神JAVA-11-MySql数据库.assets\image-20201120192601302.png)
 
  - 在配置文件写入对应的配置信息
 
