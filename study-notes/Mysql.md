@@ -2600,5 +2600,46 @@ public class TestC3P0 {
 
 无论使用什么数据源，本质是一样的，DataSource接口是不会变!
 
+**druid.properties文件的配置**		
 
-​		  
+```
+# druid.properties文件的配置
+
+driverClassName=com.mysql.jdbc.Driver
+url=jdbc:mysql://127.0.0.1:3306/plan
+username=root
+password=
+
+# 初始化连接数量
+
+initialSize=5
+
+# 最大连接数
+
+maxActive=10
+
+# 最大超时时间
+
+maxWait=3000
+```
+
+```sql
+driverClassName=com.mysql.jdbc.Driver //驱动加载
+url=jdbc:mysql://127.0.0.1:3306/student?characterEncoding=utf-8 //注册驱动
+username=root //连接数据库的用户名
+password=sjw58586 //连接数据库的密码。
+filters=stat //属性类型的字符串，通过别名的方式配置扩展插件， 监控统计用的stat 日志用log4j 防御sql注入:wall
+initialSize=2 //初始化时池中建立的物理连接个数。
+maxActive=300 //最大的可活跃的连接池数量
+maxWait=60000 //获取连接时最大等待时间，单位毫秒，超过连接就会失效。配置了maxWait之后，缺省启用公平锁，并发效率会有所下降， 如果需要可以通过配置useUnfairLock属性为true使用非公平锁。
+timeBetweenEvictionRunsMillis=60000 // 连接回收器的运行周期时间，时间到了清理池中空闲的连接，testWhileIdle根据这个判断
+minEvictableIdleTimeMillis=300000
+validationQuery=SELECT 1 //用来检测连接是否有效的sql，要求是一个查询语句。
+testWhileIdle=true //建议配置为true，不影响性能，并且保证安全性。 申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis， 执行validationQuery检测连接是否有效。
+testOnBorrow=false //申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。设置为false
+testOnReturn=false //归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能,设置为flase
+poolPreparedStatements=false //是否缓存preparedStatement，也就是PSCache。
+maxPoolPreparedStatementPerConnectionSize=200 // 池中能够缓冲的preparedStatements语句数量
+
+```
+
