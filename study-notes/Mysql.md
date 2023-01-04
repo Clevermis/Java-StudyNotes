@@ -1611,7 +1611,7 @@ VALUE(1,'zhangsan','123456','zs@sina.com','1980-12-04'),
 准备工作3：导入JAVA包
 
 	- 首先在项目根目录，点击右键，新建一个lib目录，如下图
-
+	
 	- 然后将我们的JAR包拷贝到lib目录中
 
 - 选择目录，点击右键，选择 [add as libray] 这个时候就导入包成功了
@@ -1704,9 +1704,9 @@ Class.forName("com.mysql.jdbc.Driver"); //固定写法，加载驱动
 > //事务回滚
 >
 > 	connection.rollback();
-> 		
+> 			
 > 	connection.commit();
-> 		
+> 			
 > 	connection.setAutoCommit();
 >
 > 
@@ -2029,6 +2029,8 @@ public class SQL注入 {
 ### 10.5 PrepareStatement对象
 
 可以防止sql注入并且效率更好
+
+![image-20230104143939702](../study-notes-imgs/image-20230104143939702.png)
 
 1、 添加
 
@@ -2597,8 +2599,6 @@ public class TestC3P0 {
 > 结论
 
 无论使用什么数据源，本质是一样的，DataSource接口是不会变!
-
-		![image-20201121160518512](F:\MD格式学习笔记库\狂神JAVA-11-MySql数据库.assets\image-20201121160518512.png)
 
 
 ​		  
