@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <!-- C3P0默认配置，如果没有指定则使用这个配置
+         如果在代码“ComboPooledDataSource ds = new ComboPooledDataSource();” 这样写就表示使用的是C3P0的缺省配置-->
+    <default-config>
+
+
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/jdbcStudy?useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false</property>
+        <property name="user">root</property>
+        <property name="password">131400</property>
+
+        <property name="acquireIncrement">5</property>
+        <property name="initialPoolSize">10</property>
+        <property name="minPoolSize">5</property>
+        <property name="maxPoolSize">20</property>
+
+        <property name="checkoutTimeout">30000</property>
+        <property name="idleConnectionTestPeriod">30</property>
+        <property name="maxIdleTime">30</property>
+        <property name="maxStatements">200</property>
+    </default-config>
+
+    <!-- C3P0的命名的配置,如果在代码中"ComboPooledDataSource ds = new ComboPooledDataSource(MySQL);" 这样写
+    就表示使用的是name是MySQL的配置文件 -->
+    <named-config name="MySQL">
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/jdbcStudy?useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false</property>
+        <property name="user">root</property>
+        <property name="password">131400</property>
+
+        <!-- 如果池中数据连接不够时一次增长多少个 -->
+        <property name="acquireIncrement">5</property>
+        <!-- 初始化数据库连接池时连接的数量 -->
+        <property name="initialPoolSize">20</property>
+        <!-- 数据库连接池中的最小的数据库连接数 -->
+        <property name="minPoolSize">5</property>
+        <!-- 数据库连接池中的最大的数据库连接数 -->
+        <property name="maxPoolSize">25</property>
+    </named-config>
+</c3p0-config>
