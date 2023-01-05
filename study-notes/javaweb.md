@@ -5236,3 +5236,20 @@ public class LoginServlet extends HttpServlet {
 
 
 从图 3 中可以看出，当用户名和密码输入正确后，浏览器跳转到了 welcome.html 页面。但是，如果用户名或者密码输入错误，则会跳转到图 2 所示的登录页面。
+
+## 9.10 过滤器
+
+1、Filter:Filter也称之为过滤器，WEB开发人员通过Filter技术，对web服务器管理的所有web资源：例如Jsp, Servlet, 静态图片文件或静态 html 文件等进行拦截，从而实现一些特殊的功能。例如实现URL级别的权限访问控制、过滤敏感词汇、压缩响应信息等一些高级功能。Servlet API中提供了一个Filter接口，开发web应用时，如果编写的Java类实现了这个接口，则把这个java类称之为过滤器Filter。Filter使用户可以改变一个request和修改一个response. Filter 不是一个servlet，它不能产生一个response，它能够在一个request到达servlet之前[预处理](https://baike.baidu.com/item/预处理)request，也可以在response离开servlet时处理response。
+
+　　2、实现Filter的3个方法：
+
+- void init(FilterConfig config);用于完成Filter的初始化。
+- void destroy();用于Filter销毁前，完成某些资源的回收。
+- void doFilter(ServletRequest request, ServletResponse response, FilterChain chain);实现过滤功能，对每个请求及响应增加的额外处理。
+
+![image-20230105212341158](../study-notes-imgs/image-20230105212341158.png)
+
+![image-20230105212355028](../study-notes-imgs/image-20230105212355028.png)
+
+
+
