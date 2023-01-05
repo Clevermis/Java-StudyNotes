@@ -16,6 +16,18 @@
   <url-pattern>/hello</url-pattern>
 </servlet-mapping>
 
+  <!--  注册servlet-->
+  <servlet>
+    <servlet-name>hello1</servlet-name>
+    <servlet-class>com.clevermis.servlet.getservlet</servlet-class>
+  </servlet>
+  <!--servlet的请求路径-->
+  <servlet-mapping>
+    <servlet-name>hello1</servlet-name>
+    <url-pattern>/get</url-pattern>
+  </servlet-mapping>
+
+
 
 </web-app>
 

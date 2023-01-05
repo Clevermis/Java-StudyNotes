@@ -1,5 +1,7 @@
 package com.clevermis.servlet;
 
+import javax.naming.Context;
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -18,6 +20,9 @@ public class HelloServlet extends HttpServlet {
     //由于get和post只是请求实现方式的不同，可以相互调用，业务逻辑都一样
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        ServletContext servletContext = this.getServletContext();
+        String name = "qqq";
+        servletContext.setAttribute("username",name);//将一个数据保存在了servletContext中
         resp.setContentType("text/html");
         resp.setCharacterEncoding("utf-8");
         System.out.println("进入doget方法");
