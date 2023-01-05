@@ -4791,3 +4791,165 @@ $.ajax({url:"test.html",context:document.body,success:function(){
 
 
 
+# 9.servlet
+
+
+
+## 9.1 servlet简介
+
+- servlet 就是sun公司开发动态web的一门技术
+- sun公司在这些api中提供一个接口叫做servlet，如果你想开发一个Servlet程序，只需要完成两个小步骤：
+
+- - 编写一个类，实现servlet接口
+  - 把开发好的Java类部署到web服务器中
+
+把实现了servlet接口的java程序叫做，servlet；
+
+
+
+## 9.2 HelloServlet
+
+**servlet接口在sun公司有默认的两个实现类：HttpServlet,    GenericServlet**
+
+1. 构建一个普通的maven项目，删掉里面的src目录，这就是maven主工程
+2. 关于maven父子工程理解
+
+父项目中：
+
+```java
+  <modules>
+    <module>servlet01</module>
+  </modules>
+```
+
+子项目中：
+
+```java
+    <parent>
+        <artifactId>studyJavaeeCode</artifactId>
+        <groupId>org.example</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+```
+
+父项目中的java项目可以直接使用
+
+3.maven环境优化
+
+- 修改web.xml为最新
+- 将maven结构搭建完整
+
+4.编写servlet程序
+
+1.编写一个类
+
+2.继承httpservlet接口
+
+```java
+public class HelloServlet extends HttpServlet {
+    //由于get和post只是请求实现方式的不同，可以相互调用，业务逻辑都一样
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+        PrintWriter writer = resp.getWriter();
+
+        writer.println("helloservlet");
+
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        doGet(req,resp);
+    }
+
+}
+```
+
+5. 编写servlet的映射
+
+为什么需要映射：我们写的是Java程序，但是要通过浏览器访问，而浏览器需要连接web服务器，所以我们需要在web服务中注册我们写的servlet，还需给他一个浏览器能够访问的路径
+
+```java
+<!--  注册servlet-->
+  <servlet>
+    <servlet-name>hello</servlet-name>
+    <servlet-class>com.clevermis.servlet.HelloServlet</servlet-class>
+  </servlet>
+<!--servlet的请求路径-->
+，<servlet-mapping>
+  <servlet-name>hello</servlet-name>
+  <url-pattern>/hello</url-pattern>
+</servlet-mapping>
+
+```
+
+6.配置Tomcat
+
+7.启动测试
+
+## 9.3 servlet 原理
+
+![image-20230105195243543](../study-notes-imgs/image-20230105195243543.png)
+
+
+
+
+
+## 9.4 Mapping 问题
+
+1.一个servlet可以指定一个映射路径
+
+```xml
+<!--servlet的请求路径-->
+<servlet-mapping>
+  <servlet-name>hello</servlet-name>
+  <url-pattern>/hello</url-pattern>
+</servlet-mapping>
+```
+
+
+
+2.一个servlet可以指定多个映射路径
+
+```xml
+ <servlet>
+    <servlet-name>hello</servlet-name>
+    <servlet-class>com.xiaofan.servlet.HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>hello</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>hello</servlet-name>
+    <url-pattern>/hello1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>hello</servlet-name>
+    <url-pattern>/hello2</url-pattern>
+  </servlet-mapping>
+```
+
+
+
+3.一个servlet可以指定通用映射路径
+
+```xml
+<servlet-mapping>
+    <servlet-name>hello</servlet-name>
+    <url-pattern>/hello/*</url-pattern>
+  </servlet-mapping>
+```
+
+
+
+![image-20230105200022360](../study-notes-imgs/image-20230105200022360.png)
+
+
+
+6.优先级问题
+
+指定了固有的映射路径优先级最高，如果找不到就会走默认的处理
+
+
+
