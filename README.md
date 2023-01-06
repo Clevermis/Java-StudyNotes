@@ -91,12 +91,18 @@ filetree
 ├── question总结         记录每天遇到的问题
 ├── readme-img          README存放图片目录
 ├── /study-notes/       java学习笔记
+│     ├── AJAX.md       
 │     ├── javaSE基础.md  
 │     ├── javaSE进阶.md  
-│     ├── javaweb.md      
-│     └── Markdown.md
+│     ├── javaweb.md    
+│     ├── Markdown.md   
+│     ├── Mysql.md     
+│     ├── Mysql常用命令.md     
+│     ├── XML.md    
+│     └── 注解和反射.md
 ├── study-notes-imgs    java学习笔记中存放的图片
 ├── studyJavaseCode     javaSE相关代码
+├── studyJavaeeCode     javaEE相关代码
 ├── LICENSE.MD
 └── README.md
 
@@ -118,15 +124,15 @@ filetree
 <details>
 <summary>java基础</summary>
 
-- [ ] java基础
-- [ ] Html、css、js
-- [ ] Mysql
-- [ ] JDBC 、数据库连接池
-- [ ] XML、XML解析、JSON、JSON解析、Ajax请求
-- [ ] Tomcat 、 Maven
-- [ ]  Servlet
-- [ ]  Filter与Listener
-- [ ]  java反射机制
+- [x] java基础
+- [x] Html、css、js
+- [x] Mysql
+- [x] JDBC 、数据库连接池
+- [x] XML、XML解析、JSON、JSON解析、Ajax请求
+- [x] Tomcat 、 Maven
+- [x]  Servlet
+- [x]  Filter与Listener
+- [x]  java反射机制
 - [ ]  JSP
 - [ ]  EL表达式与JSTL
 - [ ]  会话控制Cookie和Session
