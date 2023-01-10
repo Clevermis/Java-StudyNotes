@@ -18,6 +18,7 @@
         <module name="spring-01-ioc1" />
         <module name="servlet01" />
         <module name="spring-05-Autowired" />
+        <module name="spring-08-proxy" />
       </profile>
     </annotationProcessing>
   </component>
