@@ -8,9 +8,9 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.clevermis</groupId>
-  <artifactId>spring-05-Autowired</artifactId>
+  <artifactId>spring-07-appconfig</artifactId>
   <packaging>war</packaging>
-  <name>spring-05-Autowired Maven Webapp</name>
+  <name>spring-07-appconfig Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -26,13 +26,13 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <version>RELEASE</version>
-      <scope>compile</scope>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.1</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
   <build>
-    <finalName>spring-05-Autowired</finalName>
+    <finalName>spring-07-appconfig</finalName>
   </build>
 </project>

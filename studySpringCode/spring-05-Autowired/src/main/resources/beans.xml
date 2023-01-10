@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://www.springframework.org/schema/context"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+  <context:annotation-config/>
+
+
+  <bean id="cat" class="com.clevermis.pojo.Cat"/>
+  <bean id="dog11111" class="com.clevermis.pojo.Dog"/>
+  <!--  会自动在容器上下文中查找，和自己对象属性类型相同的beanid  -->
+  <bean id="people" class="com.clevermis.pojo.People" autowire="byType">
+    <property name="name" value="clevermis" ></property>
+    <!--    <property name="dog" ref="dog"></property>-->
+    <!--    <property name="cat" ref="cat"></property>-->
+
+  </bean>
+
+</beans>
+
