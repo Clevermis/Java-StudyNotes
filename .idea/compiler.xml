@@ -6,9 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="studyDesignCode" />
         <module name="reflection" />
+        <module name="spring-02-hellospring" />
+        <module name="spring-04-DI" />
+        <module name="spring-03-ioc2" />
         <module name="JDBC" />
+        <module name="spring-01-ioc1" />
         <module name="servlet01" />
+        <module name="spring-05-Autowired" />
       </profile>
     </annotationProcessing>
   </component>
