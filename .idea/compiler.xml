@@ -7,18 +7,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mybatis-02" />
+        <module name="mybatis-03" />
+        <module name="mybatis-04" />
         <module name="studyDesignCode" />
+        <module name="mybatis-05" />
         <module name="reflection" />
         <module name="spring-02-hellospring" />
         <module name="spring-04-DI" />
+        <module name="mybatis-10" />
+        <module name="mybatis-01" />
+        <module name="spring-08-proxy" />
         <module name="spring-06-anno" />
         <module name="spring-03-ioc2" />
         <module name="JDBC" />
         <module name="spring-07-appconfig" />
+        <module name="mybatis-06" />
         <module name="spring-01-ioc1" />
+        <module name="mybatis-07" />
         <module name="servlet01" />
+        <module name="mybatis-08" />
         <module name="spring-05-Autowired" />
-        <module name="spring-08-proxy" />
+        <module name="mybatis-09" />
       </profile>
     </annotationProcessing>
   </component>

@@ -6,6 +6,7 @@
     <file type="web" url="file://$PROJECT_DIR$/studyJavaeeCode" />
     <file type="web" url="file://$PROJECT_DIR$/studyJavaseCode/JDBC" />
     <file type="web" url="file://$PROJECT_DIR$/studyJavaseCode/reflection" />
+    <file type="web" url="file://$PROJECT_DIR$/studyMybatisCode" />
     <file type="web" url="file://$PROJECT_DIR$/studySpringCode" />
   </component>
   <component name="MavenProjectsManager">
@@ -16,6 +17,7 @@
         <option value="$PROJECT_DIR$/studyJavaseCode/reflection/pom.xml" />
         <option value="$PROJECT_DIR$/studySpringCode/pom.xml" />
         <option value="$PROJECT_DIR$/studyDesignCode/pom.xml" />
+        <option value="$PROJECT_DIR$/studyMybatisCode/pom.xml" />
       </list>
     </option>
   </component>
