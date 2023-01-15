@@ -92,6 +92,7 @@ filetree
 ├── readme-img          README存放图片目录
 ├── /study-notes/       java学习笔记
 │     ├── AJAX.md       
+│     ├── IDEA常用快捷键.md       
 │     ├── javaSE基础.md  
 │     ├── javaSE进阶.md  
 │     ├── javaweb.md    
